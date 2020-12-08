@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>Windows下安装hexo博客 | yh-hue的hexo博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Windows 下安装 hexo 博客首先，在安装 hexo 之前我们需要安装好 nodejs,git,cnpm，大多数 Windows 系统都是没有 git 的，所以我们先下载 git，由于官网下载太慢，推荐大家到这里下载git 下载 第一步、安装 nodejsnodejs 的安装直接去官网就好了，速度还是挺快的nodejs(这个是 Windows 版本的，Linux 和 Mac 的自己去官网下">
+  <meta name="description" content="首先，在安装 hexo 之前我们需要安装好 nodejs,git,cnpm，大多数 Windows 系统都是没有 git 的，所以我们先下载 git，由于官网下载太慢，推荐大家到这里下载git 下载 第一步、安装 nodejsnodejs 的安装直接去官网就好了，速度还是挺快的nodejs(这个是 Windows 版本的，Linux 和 Mac 的自己去官网下好啦)，还有要提醒大家的是最好不要更改">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Windows下安装hexo博客">
 <meta property="og:url" content="http://example.com/2020/12/08/Windows%E4%B8%8B%E5%AE%89%E8%A3%85hexo/index.html">
 <meta property="og:site_name" content="yh-hue的hexo博客">
-<meta property="og:description" content="Windows 下安装 hexo 博客首先，在安装 hexo 之前我们需要安装好 nodejs,git,cnpm，大多数 Windows 系统都是没有 git 的，所以我们先下载 git，由于官网下载太慢，推荐大家到这里下载git 下载 第一步、安装 nodejsnodejs 的安装直接去官网就好了，速度还是挺快的nodejs(这个是 Windows 版本的，Linux 和 Mac 的自己去官网下">
+<meta property="og:description" content="首先，在安装 hexo 之前我们需要安装好 nodejs,git,cnpm，大多数 Windows 系统都是没有 git 的，所以我们先下载 git，由于官网下载太慢，推荐大家到这里下载git 下载 第一步、安装 nodejsnodejs 的安装直接去官网就好了，速度还是挺快的nodejs(这个是 Windows 版本的，Linux 和 Mac 的自己去官网下好啦)，还有要提醒大家的是最好不要更改">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-12-08T09:43:34.000Z">
-<meta property="article:modified_time" content="2020-12-08T11:42:41.913Z">
+<meta property="article:modified_time" content="2020-12-08T13:32:50.334Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -43,57 +43,73 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<div class="overlay" style="background: #4d4d4d">
+</div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			<img src="/assets/头像.jpg" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/"></a></h1>
+			<h1 class="header-author"><a href="/"></a></h1>
 		</hgroup>
 		
 
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
-	        
+		<li><a href="/">主页</a></li>
+		
+		<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+		
+		<li><a href="/archives/index.html">归档</a></li>
+		
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
     		
-    			
-    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
-    			
-            
+		
+		<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+		
+		
+		
+		<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
+		
+		
+		
+		<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+		
+		
 		</nav>
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="https://github.com/yh-hue" title="github"><i class="icon-github"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-		        
-					<a class="qq" target="_blank" href="/assets/qq.png" title="qq"><i class="icon-qq"></i></a>
-		        
-					<a class="weixin" target="_blank" href="/assets/xin.jpg" title="weixin"><i class="icon-weixin"></i></a>
-		        
+		<a class="github" target="_blank" href="https://github.com/yh-hue" title="github"><i
+				class="icon-github"></i></a>
+		
+		<a class="zhihu" target="_blank" href="#" title="zhihu"><i
+				class="icon-zhihu"></i></a>
+		
+		<a class="qq" target="_blank" href="/assets/qq.png" title="qq"><i
+				class="icon-qq"></i></a>
+		
+		<a class="weixin" target="_blank" href="/assets/xin.jpg" title="weixin"><i
+				class="icon-weixin"></i></a>
+		
 			</div>
-		</nav>
-	</header>		
-</div>
+		
+<!-- 网易云音乐插件 -->
 
+		<div style="position:absolute; bottom:120px left:auto; width:85%">
+			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
+				src="//music.163.com/outchain/player?type=2&id=22688491&auto=1&height=66"></iframe>
+		</div>
+		
+
+
+		</nav>
+	</header>
+</div>
     </div>
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
@@ -117,6 +133,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -134,12 +152,14 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+		        
+					<li style="width: 33.333333333333336%"><a href="/archives/index.html">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -174,7 +194,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Windows-下安装-hexo-博客"><a href="#Windows-下安装-hexo-博客" class="headerlink" title="Windows 下安装 hexo 博客"></a>Windows 下安装 hexo 博客</h1><p>首先，在安装 hexo 之前我们需要安装好 nodejs,git,cnpm，大多数 Windows 系统都是没有 git 的，所以我们先下载 git，由于官网下载太慢，推荐大家到这里下载<a target="_blank" rel="noopener" href="https://pc.qq.com/detail/13/detail_22693.html">git 下载</a></p>
+        <p>首先，在安装 hexo 之前我们需要安装好 nodejs,git,cnpm，大多数 Windows 系统都是没有 git 的，所以我们先下载 git，由于官网下载太慢，推荐大家到这里下载<a target="_blank" rel="noopener" href="https://pc.qq.com/detail/13/detail_22693.html">git 下载</a></p>
 <h2 id="第一步、安装-nodejs"><a href="#第一步、安装-nodejs" class="headerlink" title="第一步、安装 nodejs"></a>第一步、安装 nodejs</h2><p>nodejs 的安装直接去官网就好了，速度还是挺快的<a target="_blank" rel="noopener" href="https://npm.taobao.org/mirrors/node/v14.15.1/node-v14.15.1-win-x64.zip">nodejs</a>(这个是 Windows 版本的，Linux 和 Mac 的自己去官网下好啦)，还有要提醒大家的是最好不要更改它的安装位置，不然后面的过程中会出现很多的问题，并且它本身也不是很大，为了避免一些麻烦，还是按他默认的位置安装(如果你是大佬当我没说)</p>
 <hr>
 <h2 id="第二步、检查-nodejs-是否安装成功"><a href="#第二步、检查-nodejs-是否安装成功" class="headerlink" title="第二步、检查 nodejs 是否安装成功"></a>第二步、检查 nodejs 是否安装成功</h2><p>打开 command 窗口(按下 Windows 键+r)输入</p>
@@ -310,20 +330,6 @@
 </article>
 
   
-<nav id="article-nav">
-  
-    <a href="/2020/12/08/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Hello World
-        
-      </div>
-    </a>
-  
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -337,6 +343,19 @@
             </div>
         </div>
         
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%E3%80%81%E5%AE%89%E8%A3%85-nodejs"><span class="toc-number">1.</span> <span class="toc-text">第一步、安装 nodejs</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E3%80%81%E6%A3%80%E6%9F%A5-nodejs-%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F"><span class="toc-number">2.</span> <span class="toc-text">第二步、检查 nodejs 是否安装成功</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%E3%80%81%E5%AE%89%E8%A3%85-hexo"><span class="toc-number">3.</span> <span class="toc-text">第三步、安装 hexo</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
         
     </div>
 </aside>
