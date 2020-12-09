@@ -16,7 +16,7 @@
 <meta property="og:description" content="之前我们已经安装好了 git 和 hexo，接下来就是配置 git 并将 hexo 部署到 GitHub 上 第一步、配置 git1.打开 git 命令窗口，输入  git config --global user.name &quot;这里写你的GitHub用户名&quot;   git config --global user.email &quot;你注册GitHub时用到的email&amp;qu">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-12-09T04:29:42.000Z">
-<meta property="article:modified_time" content="2020-12-09T06:28:29.133Z">
+<meta property="article:modified_time" content="2020-12-09T07:58:19.764Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary">
@@ -216,6 +216,8 @@
 <p><code>ssh-keygen -t rsa -C&quot;你的邮箱&quot;</code></p>
 </blockquote>
 <p>这一过程中需要你作出选择的时候直接回车就好了，最后会生成密匙，一般是在 C:\Users&quot;你的用户名”\ .ssh ,下面有一个 id_rsa 和 id_rsa.pub 文件，前一个是私匙，后一个是公匙，我们打开 id_rsa.pub 文件，并复制好其中的代码，接下来就是到 git 仓库添加密匙了。</p>
+<a id="more"></a>
+
 <hr>
 <h2 id="第二步、将生成的密匙添加到-git-仓库"><a href="#第二步、将生成的密匙添加到-git-仓库" class="headerlink" title="第二步、将生成的密匙添加到 git 仓库"></a>第二步、将生成的密匙添加到 git 仓库</h2><p>1.登录自己的 GitHub 账号(没有的可以自己注册一个)，点击自己的头像(右上角)打开下拉菜单，选择 <strong><em>setting</em></strong>,在左边的栏目中选择 <strong><em>SSH and GPG keys</em></strong> 新建一个 ssh keys，标题自己随便取，然后将我们刚才复制的密匙粘贴下面的 key 里然后直接添加就好了。</p>
 <p>2.打开我们的 git 命令窗口，输入</p>
