@@ -472,29 +472,28 @@
                             
 
                                 
+                                  <div id="gitment-ctn"></div>
+
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+
+<script>
+  var gitment = new Gitment({
+    //id: "http://example.com/2020/12/09/git%E9%85%8D%E7%BD%AE%E4%BB%A5%E5%8F%8A%E5%B0%86hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A/",
+    id: 'Wed Dec 09 2020 12:29:42 GMT+0800 ',
+    owner: 'yh-hue',
+    repo: 'blog_comment.io',
+    oauth: {
+      client_id: '7f5d2a278f5a81b31dda',
+      client_secret: 'dfd68fe978c4fff3c9bb9a928f13e2d45028fa5f',
+    },
+  })
+  gitment.render('gitment-ctn')
+</script>
+                                    
                                       
 
                                         
-                                          <div id="gitalk-container" style="padding: 0px 30px 0px 30px;"></div> 
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script type="text/javascript">
-
-if(true){
-  var gitalk = new Gitalk({
-    clientID: '7f5d2a278f5a81b31dda',
-    clientSecret: 'dfd68fe978c4fff3c9bb9a928f13e2d45028fa5f',
-    repo: 'github.com/yh-hue/blog_comment.io',
-    owner: 'yh-hue',
-    admin: ['yh-hue'],
-    id: 'Wed Dec 09 2020 12:29:42 GMT+0800',
-    distractionFreeMode: 'true'
-})
-gitalk.render('gitalk-container') 
-}
-</script>
-                                            
 
           </div>
         </div>
